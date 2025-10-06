@@ -61,6 +61,7 @@ export const materials = [
     "Bridge Design Zero Line Screw Brass Copper 12 Terminal Block",
     "TCS34725 RGB Sensor",
     "Ultrasonic HC-SR04 sensor",
+    "Water Sensors"
 ];
 
 export const materialLinks = {
@@ -160,4 +161,8 @@ export const materialLinks = {
         desc: "Ultrasonic sensor for distance measurement.",
         img: "https://res.cloudinary.com/dy6z8wadm/image/upload/v1757939843/ul_odanjq.png",
     },
+    "Water Sensors": {
+        desc: "",
+        img: ""
+    }
 };

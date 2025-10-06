@@ -28,7 +28,6 @@ export default function MaterialDialog({
 							MaterialLinks,
 							{ desc: string; img: string }
 						>)[material as MaterialLinks];
-
 						return (
 							<li
 								key={idx}
@@ -41,13 +40,11 @@ export default function MaterialDialog({
 										className="w-24 h-24 object-cover rounded-lg border border-gray-800 mb-3 sm:mb-0"
 									/>
 								)}
-
 								<div className="flex-1">
 									<p className="font-semibold text-white">{material}</p>
 									<p className="text-sm text-gray-400 mb-2">
 										{item?.desc || "No description available."}
 									</p>
-
 									<a
 										href={`https://www.google.com/search?q=${encodeURIComponent(
 											material
@@ -63,8 +60,6 @@ export default function MaterialDialog({
 						);
 					})}
 				</ul>
-
-
 			</DialogContent>
 		</Dialog>
 	);
